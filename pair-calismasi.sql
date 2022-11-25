@@ -1,4 +1,4 @@
---Kategori a-z
+--Kategori a-z ye sıralayan sorgu.
 Select*from categories order by category_name;
 --Tüm ürünlerin fiyat ortalaması
 Select Avg(unit_price)from products ;
